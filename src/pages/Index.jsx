@@ -41,20 +41,6 @@ const Index = () => {
         </Heading>
 
         <Box w="100%">
-          <FormControl id="email" isRequired>
-            <FormLabel>Email address</FormLabel>
-            <Input placeholder="Enter your email" type="email" />
-          </FormControl>
-        </Box>
-
-        <Box w="100%">
-          <FormControl id="password" isRequired>
-            <FormLabel>Password</FormLabel>
-            <Input placeholder="Enter your password" type="password" />
-          </FormControl>
-        </Box>
-
-        <Box w="100%">
           <FormControl id="new-website">
             <FormLabel>Add Website to Monitor</FormLabel>
             <VStack spacing={3}>
